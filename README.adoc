@@ -1,4 +1,4 @@
-== README
+== write-good-asciidoc
 
 https://github.com/btford/write-good[Write-Good] is a "naive linter for English prose".
 It helps with its checks to write better prose by highlighting bad style.
