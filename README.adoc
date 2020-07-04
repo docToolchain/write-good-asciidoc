@@ -1,6 +1,6 @@
 == write-good-asciidoc
 
-https://github.com/btford/write-good[Write-Good] is a "naive linter for English prose".
+https://github.com/btford/write-good[Write-Good] is a "`naive linter for English prose`".
 It helps with its checks to write better prose by highlighting bad style.
 
 This project applies the write-good rules to AsciiDoc via the AsciiDoc IntelliJ editor plugin.
@@ -15,14 +15,14 @@ image::images/demo.png[]
 To try it for yourself, simply check out this repository and open it in IntelliJ with the AsciiDoc-plugin installed.
 The write-good checks should now be applied to every AsciiDoc file.
 
-NOTE: IntelliJ will not re-run the injected script until you close and re-open the editor OR disable the option "refresh preview contents without flicker" of the AsciiDoc plugin.
+NOTE: IntelliJ will not re-run the injected script until you close and re-open the editor OR disable the option "`refresh preview contents without flicker`" of the AsciiDoc plugin.
 
 === Development
 
-`bundle.js`is the injected file, but the source is `main.js`.
+`bundle.js` is the injected file, but the source is `main.js`.
 This script makes use of node modules, so you need node.js installed.
 
-When you modify the code, the following statements should re-build the `bundle.js` and you will be able to see the changes immediatly in your editor.
+When you modify the code, the following statements should re-build the `bundle.js` and you will be able to see the changes immediately in your editor.
 
 install the required dependencies:
 
@@ -48,7 +48,7 @@ Some adverbs can extremely weaken the meaning. The `adverb` rule detects these.
 
 As a matter of fact, the `too-wordy` plugin catches phrases which can be dropped.
 
-This example contains a writing cliché which you should avoid: "Writing specs puts me at loose ends."
+This example contains a writing cliché which you should avoid: "`Writing specs puts me at loose ends.`"
 
 
 
